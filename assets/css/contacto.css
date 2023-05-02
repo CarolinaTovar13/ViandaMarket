@@ -1,0 +1,873 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen&display=swap');
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+                
+body{
+background-color: white;
+}
+
+/*
+----Barra de navegación e intro
+*/
+
+.header {
+    background-color: #FCF7F1;
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 2fr 1fr;
+    align-content: center;
+    height: 4vw;
+    
+    
+    }
+
+    .headerDestok .barraMenu{
+        font-size: 1.3vw;
+        cursor: pointer;
+        margin-left: 10%;
+
+    }
+ .iconos{
+    display:grid;
+    grid-auto-flow: column;
+    
+ }
+
+ #lupa{
+    margin-top: 7%;
+    font-size: 1.2vw;
+    color: rgba(42, 46, 58, 1);
+    
+ }
+    
+    #VMlogo{
+        margin-left: 20%;
+        margin-top: 2%;
+        width: 10vw;
+    }
+    
+
+.dropdownBuscador{
+    margin-top: 1.4vw;
+    margin-left: 115%;
+    margin-right: 20%;
+}
+    
+    #miCuenta{
+        background-color: rgba(42, 46, 58, 1);
+        color: rgba(252, 247, 241, 1);
+       margin-top: 15%;
+       margin-bottom: 18%;
+       margin-left: 50%;
+        font-size:1.1vw;
+        text-decoration: solid;
+        text-align: center;
+       border-radius: 30px;
+    }
+    
+    
+
+    
+    #shoppingCart{
+        background-color:rgba(42, 46, 58, 1) ;
+        margin-top: 20%;
+        margin-left: 5%;
+        margin-right: 50%;
+        margin-bottom: 25%;
+       text-align: center;
+        font-size: 1vw;
+     color:rgba(252, 247, 241, 1);
+     position:right;
+     border-radius: 30px;
+    
+    }
+    
+    .headerBar{
+        display: grid;
+          
+    }
+    .navbar{
+        background-color:rgba(42, 46, 58, 1);
+        display: grid;
+        text-align: center;
+        height: 3.5vw;
+    }
+    
+    
+    header nav ul{
+        background-color:rgba(42, 46, 58, 1);
+        /* margin-top: 1%; */
+        margin-right: 0vw;
+        margin-left: 5vw ;
+        list-style: none;
+        cursor: pointer;
+        font-size: 1.5vw;
+        color: rgba(252, 247, 241, 1);
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        gap:8vw;
+        text-align: justify;
+        margin-bottom: 10%;
+
+    }
+    .barraMenu{
+        margin-bottom: 2vw;
+    }
+
+    .headerDestok .barraMenu{
+        height: 1vw;
+        font-size: 1.5vw;
+        cursor: pointer;
+        margin-left: 3%;
+        
+
+    }
+
+    
+   header nav ol li{
+    text-align:center; 
+    }
+
+
+    .headerCel{
+        display: none;
+        background-color: #FCF7F1;
+        list-style: none;
+        height: 13vw;
+
+    }
+
+    .navbar-nav{ 
+        background-color: transparent;
+        font-size: 3vw;
+        gap:0.1vw;
+    }
+
+    .offcanvas-header{
+        background-color: #FCF7F1;
+    }
+    
+    #VMlogo2{
+        margin-left:8%;
+        margin-top: 2%;
+        margin-right: 1%;
+        width: 35vw;
+        
+    }
+
+    #menuHambu{
+        margin-top:4vw;
+        margin-bottom: 1vw;
+        margin-left: 40%;
+        color:rgba(42, 46, 58, 1);
+    }
+
+    #menuHambuLinea{
+        font-size: 4vw;
+        color: rgba(42, 46, 58, 1);
+    }
+
+    .navbar-toggler{
+        margin-top: 25%;
+    }
+
+    .btn-close{
+        font-size: 3vw;
+    }
+
+
+    #shoppingCart2{
+        margin-right: 10%;
+        /* margin-bottom: 3vw; */
+        margin-right: 10%;
+        margin-left: 3%;
+        font-size: 4vw;
+        color: rgba(42, 46, 58, 1);
+        border-radius: 30px;
+    }
+
+    .copytexto{
+        font-size: 0.7rem;
+    }
+
+ @media (max-width:800px){
+    .headerCel{
+        display:block;
+    }
+ }
+
+ @media (max-width:800px){
+    .header{
+        display:none;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    .navbar{
+        display: none;
+    }
+ }  
+    
+/*
+----Barra de navegación e intro
+*/
+
+/* .center {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+} */
+/*
+Zona de trabajo Fran INICIO
+*/
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+/* .center-nav{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+}  */
+/* @media only screen and (min-width: 800px) {
+    .navbar {
+        max-height: 41px;
+    }
+    
+}
+@media only screen and (max-width: 799px) {
+    .navbar {
+        max-height: 100px;
+    }
+    
+} */
+/* .barraMenu{
+    margin: 0!important;
+    padding: 0!important; 
+    max-height: 41px!important;
+    font-size: 1rem;
+} */
+@font-face {
+    font-family: MADEmirage;
+    src: url(../font/MADE\ Mirage\ Regular.otf);
+}
+@font-face {
+    font-family: dreamyEyes;
+    src: url(../font/dreamy-eyes.ttf);
+}
+
+.btn-celeste{ 
+ background-color: #84A3B7!important;
+ border-color: #84A3B7!important;
+ margin-bottom: 10px;
+ width: 191.83px;
+height: 55px;
+font-size: 24px!important;
+font-family: dreamyEyes;
+}
+.rowUno{
+    margin-top: 1rem!important;
+    display: grid;
+    width: auto;
+    grid-template-rows: max-content;
+    text-align: center;
+    background-color: #B81C00;
+    height:7vw;  
+    margin-top: 7.5vw!important;
+}
+.titulo{
+    
+    font-family: MADEmirage;
+    font-size: 5VW; 
+    color: #fff;
+    margin-top: 1%!important;
+}
+
+@media (max-width:800px){
+    .rowUno{
+        height:18vw;
+        margin-top: 100%;
+    }
+    .titulo{
+        margin-top: 11%;
+    }
+ }
+/* @media (max-width: 784px) {
+    .titulo{
+    
+        font-family: MADEmirage;
+        font-size: 400%;  
+        
+    margin-top: 9%;
+    }
+    .contenedor-titulo{
+  
+        margin-top: 7%!important;
+    }
+  }
+  @media (max-width: 625px) {
+      .titulo{
+      
+          font-family: MADEmirage;
+          font-size: 300%;  
+      }
+    }
+  @media (max-width: 500px) {
+      .titulo{
+      
+          font-family: MADEmirage;
+          font-size: 300%;  
+          margin-top: 11%;
+      }
+    }
+@media (max-width: 370px) {
+    .titulo{
+    
+        font-family: MADEmirage;
+        font-size: 200%;  
+    }
+  } */
+.bg-azuloscuro{
+    background-color: #232222;
+    /*max-height: 649px;*/
+    padding: 30px!important;
+}
+.col-md-6{
+    /* margin-right: 10%;
+    margin-right: 10%; */
+    /* position: relative; */
+padding: 5%;
+display: grid;
+grid-auto-rows: max-content;
+justify-content: center;
+
+}
+.mapa-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px!important;
+  }
+.mapa{
+    position: relative;
+   justify-content: center;
+    width:350px;
+    height:50vw;
+    max-height: 480px;
+    border:0;
+    /* margin-right: 25%; */ 
+    /* margin-bottom: 54px;*/
+}
+
+.formulario{
+    width:350px; 
+}
+form{
+    
+    width:100%; 
+}
+@media (max-width: 380px) { 
+    
+    .info-contacto{
+        display: inline-flex;
+        
+        width: 300px!important;
+        height: 60px!important;
+    }
+}
+
+.row2{
+    margin-left: 5%;
+    display: grid;
+    grid-auto-columns: max-content;
+}
+.info-contacto{
+    display: inline-flex;
+    
+    width: 351px!important;
+    height: 60px!important;
+}
+.icono{ 
+    width:  40px!important;
+    height: 60px!important;
+
+}
+
+.izquierda-centro {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+.info{ 
+    width:  291px!important;
+    height: 60px!important;
+    font-family: dreamyEyes;
+    color: #fff; 
+    line-height: 18px;
+    letter-spacing: 1.8px;
+    text-align: justify;
+}
+.img-icon{
+    color: yellow!important;
+    width:  30px!important;
+    height: 30px!important;
+}
+.linea-baja{
+    border-bottom: #fff solid 1px;
+    margin-bottom: 27px;
+}
+.conjunto-inputs{
+    width: 100%;
+    padding-bottom: 55px!important;
+}
+
+@media (max-width: 873px) { 
+    .conjunto-inputs{
+        padding-bottom: 80px!important;
+    }
+}
+.input-box-VM{
+    height: 25px!important;
+}
+.inputs-VM{
+    height: 25px!important;
+    width: 350px!important;
+}
+
+
+
+
+.text-VM{
+    width: 350px!important;
+    height: 86px!important;
+    
+} 
+/*
+Zona de trabajo Fran FIN
+*/
+
+/* :::::Pie de Pagina */
+
+@font-face {
+    font-family: Mirage-medium;
+    src: url("../font/MADE\ Mirage\ Regular.otf") 
+}
+
+@font-face {
+    font-family: Mirage-bold;
+    src: url("../font/MADE-Mirage-Bold.otf") 
+}
+
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: #fcf7f1;
+}
+
+.icono{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #84A3B7;
+}
+
+.enlaces a {
+    margin-top: 1rem;
+  
+    padding: 0;
+    
+  }
+  .enlaces .icono {
+    margin: 0 1rem;
+  }
+.encabezadof {
+    font-size: 2rem;
+    font-family: Mirage-bold;
+    color: #84A3B7;
+}
+.itemfooter{
+    font-family: Mirage-medium;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+.copy{
+ margin-top: .2rem;
+
+ background-color: #232222;
+ color: #fcf7f1;
+ max-height: 8rem;
+}
+.collapse{
+    line-height:2rem
+}
+
+.copytexto{
+    font-family: Mirage-medium;
+    text-decoration: none;
+    
+}
+.imagenlogo{
+    display: block;
+    width: 20rem;
+}
+     
+
+.icono{
+font-size: 1.6rem;
+
+    }
+.enlaces .icono {
+    margin: 0 .8rem;
+}
+    @media only screen and (max-width: 320px) {
+        .imagenlogo {
+         display: none;
+        }
+    
+        .itemfooter{
+            font-family: Mirage-medium;
+            text-decoration: none;
+            font-size: .810rem;
+        
+        }
+  
+        .enlaces{
+           padding-right:2em ;
+          
+           }
+           .enlaces .icono {
+            margin: 0 .4rem !important;
+            padding-left: .2rem;
+            padding-right: .12rem;
+                }
+
+                .encabezadof {
+                    font-size: 1.3rem !important;
+                    font-family: Mirage-bold;
+                    color: #84A3B7;
+                }
+                .icono{
+                    font-size: 1.8rem !important;
+                }
+    }
+        
+        @media only screen and (max-width: 360px) {
+            .imagenlogo {
+             display: none;
+            }
+    
+            .itemfooter{
+                font-family: Mirage-medium;
+                text-decoration: none;
+                font-size: .810rem;
+            
+            }
+      
+            .enlaces{
+               padding-right:2em ;
+              
+               }
+               .enlaces .icono {
+                margin: 0 .8rem ;
+                padding-left: .2rem;
+                padding-right: .12rem;
+                    }
+
+                    .encabezadof {
+                        font-size: 1.3rem !important;
+                        font-family: Mirage-bold;
+                        color: #84A3B7;
+                    }
+                    .icono{
+                        font-size: 1.8rem !important;
+                    }
+        }
+        @media only screen and (max-width: 400px) {
+            .imagenlogo {
+             display: none;
+            }
+    
+            .itemfooter{
+                font-family: Mirage-medium;
+                text-decoration: none;
+                font-size: .810rem;
+            
+            }
+            .icono{
+                font-size: 1.8rem !important;
+            }
+            .encabezadof {
+                font-size: 1.3rem !important;
+                font-family: Mirage-bold;
+                color: #84A3B7;
+            }
+          
+               .enlaces .icono {
+                margin: 0 .2em;
+                    }
+                    
+        }
+    
+    @media only screen and (max-width: 420px) {
+        .imagenlogo {
+         display: none;
+        }
+        .encabezadof {
+            font-size: 1.3rem;
+            font-family: Mirage-bold;
+            color: #84A3B7;
+        }
+        .itemfooter{
+            font-family: Mirage-medium;
+            text-decoration: none;
+            font-size: .810rem;
+        
+        }
+        .icono{
+            font-size: 1.8rem;
+        }
+        .encabezadof {
+            font-size: 3.3rem ;
+            font-family: Mirage-bold;
+            color: #84A3B7;
+        }
+        .enlaces{
+            padding-right: 10rem;
+          
+           }
+           .enlaces .icono {
+            margin: 0 .4em;
+                }
+    }
+    
+
+    @media only screen and (max-width: 450px) {
+        .imagenlogo {
+         display: none;
+        }
+   
+        .itemfooter{
+            font-family: Mirage-medium;
+            text-decoration: none;
+            font-size: .810rem;
+        
+        }
+        .icono{
+            font-size: 1.8rem ;
+        }
+        .encabezadof {
+            font-size: 1.3rem;
+            font-family: Mirage-bold;
+            color: #84A3B7;
+        }
+        .enlaces {
+            position: relative;
+           left: 4.7rem !important; 
+           }
+      
+         
+    }
+    @media only screen and (max-width: 502px) {
+        .imagenlogo {
+         display: none;
+        }
+        .encabezadof {
+            font-size: 2.3rem;
+            font-family: Mirage-bold;
+            color: #84A3B7;
+        }
+        .itemfooter{
+            font-family: Mirage-medium;
+            text-decoration: none;
+            font-size: .810rem;
+        
+        }
+        .icono{
+            font-size: 2.6rem;
+        }
+        .enlaces {
+            position: relative;
+           left: 4rem !important; 
+           }
+          
+        }
+
+    @media only screen and (max-width: 525px) {
+        .imagenlogo {
+         display: none;
+        }
+        .encabezadof {
+            font-size: 2.3rem;
+            font-family: Mirage-bold;
+            color: #84A3B7;
+        }
+        .itemfooter{
+            font-family: Mirage-medium;
+            text-decoration: none;
+            font-size: .810rem;
+        
+        }
+        .icono{
+            font-size: 2.6rem;
+        }
+        .enlaces {
+            position: relative;
+           left: 6.5rem 
+           }
+          
+        }
+        @media only screen and (max-width: 581px) {
+            .imagenlogo {
+             display: none;
+            }
+            .encabezadof {
+                font-size: 2.3rem;
+                font-family: Mirage-bold;
+                color: #84A3B7;
+            }
+            .itemfooter{
+                font-family: Mirage-medium;
+                text-decoration: none;
+                font-size: .810rem;
+            
+            }
+            .icono{
+                font-size: 2.6rem;
+            }
+            .enlaces {
+                position: relative;
+               left: 6.5rem 
+               }
+              
+            }
+        
+    
+
+  @media screen and (max-width: 767px){
+
+
+
+   
+        .icono{
+            font-size: 2rem;
+           
+        }
+        .imagenlogo{
+            display: none ;
+          } 
+       
+              .container .col-md-2,
+              .container .col-md-3,
+              .container .col-md-4 {
+              border-bottom: 1px solid #84A3B7;
+              padding-bottom: 10px;
+              margin-bottom: 10px;
+              }
+              .icono{
+                  font-size: 2.6rem;
+                 
+              }
+              .enlaces {
+                position: relative;
+                width: 16rem;
+                Left: 7rem;
+               }
+            }
+
+            @media only screen and (min-width: 768px) {
+                .encabezadof{
+                    pointer-events: none;
+                 }
+              .collapse {
+                display: none;
+                 }
+              
+                .imagenlogo {
+                  width: 12rem;
+                 position: relative;
+                 right: 50px;
+                }
+                .encabezadof {
+                    font-size: 1.3rem;
+                    font-family: Mirage-bold;
+                    color: #84A3B7;
+                }
+                .itemfooter{
+                    font-family: Mirage-medium;
+                    text-decoration: none;
+                    font-size: .810rem;
+                
+                }
+                .enlaces {
+                    position: relative;
+                    right: 3.3rem
+                   }
+              
+                }
+    
+    @media only screen and (min-width: 1024px) {
+        
+        .itemfooter{
+            font-family: Mirage-medium;
+            text-decoration: none;
+            font-size: 1.1rem;
+        
+        }
+        .imagenlogo {
+            width:16rem;
+            display: flex;
+            justify-content: flex-start;
+          }
+          .icono{
+            font-size: 1.7rem;
+           
+        }
+        .enlaces .icono {
+            margin: 0 1.3rem;
+          }
+          }
+
+  @media only screen and (min-width: 1200px) {
+    .imagenlogo {
+      width:25rem;
+      display: flex;
+      justify-content: flex-start;
+    }
+    .encabezadof {
+        font-size: 2rem;
+        font-family: Mirage-bold;
+        color: #84A3B7;
+    }
+    .itemfooter{
+        font-family: Mirage-medium;
+        text-decoration: none;
+        font-size: 1rem;
+    
+    }
+    .icono{
+        font-size: 2rem;
+       
+    }
+    .enlaces {
+        position: relative;
+        right: 0rem
+       }
+        
+      }
+   /* ****************** Animations ***************** */
+
+footer a {
+    transition: all 0.3s;
+}
+
+footer a:hover {
+    transform: scale(1.5);
+}
